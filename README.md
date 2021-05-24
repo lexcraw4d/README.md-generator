@@ -9,15 +9,16 @@
 - [License](#License)
 
 # About
-The README.md Generator was created for the user to quickly be able to create a high-quality, profession README.md file. The README.md Generator was created using the command line application in [Visual Studio Code](https://code.visualstudio.com/) via [Node.js](https://nodejs.org/en/) given a set of prompts through [Inquirer's](https://www.npmjs.com/package/inquirer) [Node Package Manager (npm)](https://www.npmjs.com/). The user is prompted with detailed questions that provide the README.md with a Table of Contents featuring the About, Installation, Usage, Contribution and Questions sections. The user is prompted for additional information including their Github Username, Email Address, and preference of Licensure. After the information is collected from the user, the markdown file is then written with Node.js's built in filesystem module (also known as the 'fs' module).
+The README.md Generator was created for the user to quickly be able to create a high-quality, professional README.md file. The README.md Generator was created using the command line application in [Visual Studio Code](https://code.visualstudio.com/) via [Node.js](https://nodejs.org/en/) given a set of prompts through [Inquirer's](https://www.npmjs.com/package/inquirer) [Node Package Manager (npm)](https://www.npmjs.com/). The user is prompted with detailed questions that provide the README.md with a Table of Contents featuring the About, Installation, Usage, Contribution and Questions sections. The user is prompted for additional information including their Github username, email address, and personal preference of licensure. After the information is collected from the user, the markdown file is then written with Node.js' built in filesystem module (also known to developers as the 'fs' module).
 Please visit [this video](https://drive.google.com/file/d/1CzPWLf5dscZxKIJJqvdP-yWfrYn6Cyl9/view?usp=sharing) for a live demo, since all of the generator is made via the command line.
 
-
 # Installation
-To install please visit [my repository](https://github.com/lexcraw4d/README.md-generator) and look at the uploaded files via GitHub Deployment.
+To install please visit [my repository](https://github.com/lexcraw4d/README.md-generator) and look at the uploaded files via GitHub Deployment. You may also fork my repository and download both [Node.js](https://nodejs.org/en/) and [Inquirer](https://www.npmjs.com/package/inquirer). Additionally, you will need [Visual Studio Code](https://code.visualstudio.com/).The details of how to implement these are provided in the [Usage](#Usage) section below.
 # Usage
 ##### Visual Studio Code
-![Visual Studio Code](file:///C:\Users\lexc2\OneDrive\Desktop\Homework\README_Generator\Assets\Photos\VSCode.JPG)
+
+![](Assets/Photos/VSCode.JPG)
+
 Visual Studio Code (VS) was used to create, edit, and code the README Generator.
 
 [Visual Studio Code](https://code.visualstudio.com/) is an lightning fast FREE open-source editor designed by [Microsoft](https://www.microsoft.com/en-us/) with developers in mind. Visual Studio code allows developers to easily apply the edit-build-debug cycle, resulting in more productivity on your ideas.
@@ -26,15 +27,21 @@ Visual Studio Code (VS) was used to create, edit, and code the README Generator.
 
 ### Node.js
 Node.js was used in combination with VSC. You can dowload Node.js [here.](https://nodejs.org/en/).
+![](Assets/Photos/nodejs.JPG)
 ### npm and Inquirer
+![](Assets/Photos/npm.JPG)
+
+
 [npm node package manager fo js](https://www.npmjs.com/package/inquirer) in combination via [Inquirer ](https://www.npmjs.com/package/inquirer). Please click the referenced for documentation on npm and Inquirer.
+
+![](Assets/Photos/Inquirer.JPG)
+
 
 #### GitHub/Git
 
 In order to make effective changes to the website both [Git](https://gitforwindows.org/) and [GitHub](https://github.com/) were used in synchronization to push commits of the latest updated version.
 
-
-![Git](file:///C:\Users\lexc2\OneDrive\Desktop\Homework\README_Generator\Assets\Photos\git.jpg)
+![](Assets/Photos/git.jpg)
 
 Git is version control system which allows multiple users to make changes to one single repository.
 
@@ -53,4 +60,4 @@ If you are interested in fixing issues directly to the code base, please referen
 # License
 This source code is available to everyone under the standard [MIT License](https://github.com/microsoft/vscode/blob/master/LICENSE.txt).
 
-Copyright (c) 2021 Lexie Crawford
+:copyright: 2021 Lexie Crawford :computer: :heart:
